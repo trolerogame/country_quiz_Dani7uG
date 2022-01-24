@@ -2,7 +2,7 @@ import styled,{css} from 'styled-components';
 
 
 export const ContainCard = styled.div`
-    width: 400px;
+    width: 375px;
     background-color:#fff;
     border-radius:15px;
     position: relative;
