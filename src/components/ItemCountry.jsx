@@ -30,7 +30,7 @@ const ItemCountry = ({country,i,countrieTrue,setWin,win,setCount}) => {
                 <span>{letter[i+1]}</span>
                 {country.name}
            </div>
-           {isTrue && <img style={{width: '20px'}} src={'/country_quiz_Dani7uG' + isTrue == 'green' ? '/check-circle-solid.svg' : '/times-circle-solid.svg'} alt="" />}
+           {isTrue && <img style={{width: '20px'}} src={'/country_quiz_Dani7uG' + (isTrue == 'green' ? '/check-circle-solid.svg' : '/times-circle-solid.svg')} alt="" />}
         </Answer>
 }
 
