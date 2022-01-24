@@ -54,7 +54,7 @@ function App() {
 			{isRetry === false && (
 				<>
 					<ImgAdventure
-						src="/undraw_adventure_4hum 1.svg"
+						src="/country_quiz_Dani7uG/undraw_adventure_4hum 1.svg"
 						alt=""
 					/>
 					<Question>
