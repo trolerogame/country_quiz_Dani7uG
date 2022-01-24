@@ -15,7 +15,7 @@ export const StyleGlobal = createGlobalStyle`
         display:grid;
         place-content: center;
         background-color: #5352ed;
-        background: url('/background.png') no-repeat;
+        background: url('/country_quiz_Dani7uG/background.png') no-repeat;
         background-size: cover ;
     }
 `
