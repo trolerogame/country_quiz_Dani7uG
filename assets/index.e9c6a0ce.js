@@ -67,7 +67,7 @@ import{s as c,j as m,r as l,W as _,R as j,a as R}from"./vendor.0f59a5b2.js";cons
     color:#fff;
     width:80px;
     cursor:pointer;
-`,n=m.exports.jsx,f=m.exports.jsxs,k=m.exports.Fragment,M={1:"A",2:"B",3:"C",4:"D"},$=({country:e,i:r,countrieTrue:a,setWin:u,win:t,setCount:o})=>{const i=e.capital==a.capital,[g,p]=l.exports.useState("");l.exports.useEffect(()=>{t===!1&&i&&p("green"),t===null&&p("")},[t]);const h=()=>{const{count:x}=o;i&&o.setCount(x+1),p(i),u(i),p(i?"green":"red")};return f(q,{isTrue:g,onClick:()=>t===null&&h(),children:[f("div",{children:[n("span",{children:M[r+1]}),e.name]}),g&&n("img",{style:{width:"20px"},src:"/country_quiz_Dani7uG"+g=="green"?"/check-circle-solid.svg":"/times-circle-solid.svg",alt:""})]},r)},E=c.div`
+`,n=m.exports.jsx,f=m.exports.jsxs,k=m.exports.Fragment,M={1:"A",2:"B",3:"C",4:"D"},$=({country:e,i:r,countrieTrue:a,setWin:u,win:t,setCount:o})=>{const i=e.capital==a.capital,[g,p]=l.exports.useState("");l.exports.useEffect(()=>{t===!1&&i&&p("green"),t===null&&p("")},[t]);const h=()=>{const{count:x}=o;i&&o.setCount(x+1),p(i),u(i),p(i?"green":"red")};return f(q,{isTrue:g,onClick:()=>t===null&&h(),children:[f("div",{children:[n("span",{children:M[r+1]}),e.name]}),g&&n("img",{style:{width:"20px"},src:"/country_quiz_Dani7uG"+(g=="green"?"/check-circle-solid.svg":"/times-circle-solid.svg"),alt:""})]},r)},E=c.div`
     display: flex;
     flex-direction: column;
     align-items: center;
