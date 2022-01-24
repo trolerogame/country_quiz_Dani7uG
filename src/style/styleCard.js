@@ -24,6 +24,9 @@ export const Question = styled.b`
     font-size:25px;
     margin:20px 0;
     font-weight:600;
+    img{
+        width: 100px;
+    }
 `
 
 export const Title = styled.h1`

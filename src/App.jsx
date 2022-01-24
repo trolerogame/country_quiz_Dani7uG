@@ -58,7 +58,15 @@ function App() {
 						alt=""
 					/>
 					<Question>
-						{countrieTrue.capital} is the capital of
+						{oneOrZero ? 
+							`${countrieTrue.capital} is the capital of` : 
+							<>
+								<img src={countrieTrue.flags?.png} alt="" />
+								<p>
+								Which country does this flag belong to	
+								</p>
+							</>
+						}
 					</Question>
 					<ContainAnswers>
 						{countries && countries.map((country, i) => (
