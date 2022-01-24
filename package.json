@@ -1,6 +1,7 @@
 {
   "name": "country_quiz",
   "version": "0.0.0",
+  "homepage":"https://trolerogame.github.io/country_quiz_Dani7uG/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
